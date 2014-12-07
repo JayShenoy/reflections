@@ -30,3 +30,10 @@ be able to reserve the main version of the project. A second situation
 that I could use branches would be in creating an easy version of a game.
 Again, the more difficult version of the game would not be disturbed,
 and both versions would exist concurrently.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams let me see the commits included within each branch and
+let me view the possible reachability of one commit from another. This
+way, I can study the overall interaction of all the branches and add to
+the project accordingly.

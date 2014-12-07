@@ -12,3 +12,21 @@ directory and the repository. When you want to add files from the work-
 ing directory to the repository, you first add them to the staging area.
 The staging area is valuable because if you wish to rescind an addition,
 you can do so without messing up your repository with weird changes.
+
+How can you use the staging area to make sure you have one commit per
+logical change?
+
+I can use the git diff --staged command to compare the staging area with
+the most recent commit to ensure that I have made a logical change. If
+not, I can use git reset to remove the changed file from the staging
+are and change the file in the working directory.
+
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+One situation in which branching would be useful is if I made a version
+of your project in another language. Branches would help because I would
+be able to reserve the main version of the project. A second situation
+that I could use branches would be in creating an easy version of a game.
+Again, the more difficult version of the game would not be disturbed,
+and both versions would exist concurrently.

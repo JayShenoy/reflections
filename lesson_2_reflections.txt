@@ -37,3 +37,19 @@ The diagrams let me see the commits included within each branch and
 let me view the possible reachability of one commit from another. This
 way, I can study the overall interaction of all the branches and add to
 the project accordingly.
+
+What is the result of merging two branches together? Why do we represent
+it in the diagram the way we do?
+
+Merging two branches together combines the commits made within those
+branches. We represent it as two arrows merging to show that two separate
+branches are being combined into a single branch.
+
+What are the pros and cons of Git's automatic merging vs. always doing
+merges manually?
+
+The pros of Git's automatic merging are that it does all the work for you
+and that large branches can be combined quickly. The con is that Git may
+include or exclude some code against the programmer's wishes. The pro of
+manually merging is that you are in control of what code is included in
+the final commit. However, it may take time to review and modify the code. 

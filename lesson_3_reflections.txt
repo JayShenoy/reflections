@@ -4,3 +4,11 @@ your work local?
 I would use a remote repository to save copies of my work online to
 prevent data loss on my local machine. In addition, using a remote
 repository would make collaborating on projects much easier.
+
+Why might you want to always pull changes manually rather than having
+Git automatically stay up-to-date with your remote repository?
+
+Having Git automatically update your remote repository might delete
+changes that you made in the meantime, which would be an inconvenience.
+You may want to work on a previous version of a repository, commit, and
+then update the remote after you finish.

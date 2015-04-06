@@ -12,3 +12,14 @@ Having Git automatically update your remote repository might delete
 changes that you made in the meantime, which would be an inconvenience.
 You may want to work on a previous version of a repository, commit, and
 then update the remote after you finish.
+
+Describe the differences between forks, clones, and branches. When would
+you use one instead of another?
+
+Forks are used solely on GitHub to copy repositories without having
+access to them. I would fork a repository if I wanted to create my own
+version of it without affecting the original. Cloning is used to
+download a remote repository onto a local machine. I would use this if
+I wanted to directly modify the remote. Branching is used to create a
+separate path of commits that does not affect the master branch. I
+would use branches to, say, add an experimental feature to a project.

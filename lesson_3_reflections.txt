@@ -40,3 +40,14 @@ an online platform like Google Docs. It would be much easier to make
 quick changes without pull requests, branches, and the like. However,
 it would be more difficult to find bugs in previous versions and to
 have an organized method of combining changes to projects.
+
+When would you want to make changes in a separate branch rather than
+directly in master? What benefits does each approach have?
+
+I would make changes in a separate branch if I wanted to add some code
+to a project without affecting recent changes made in master branch.
+This would allow me to resolve merge conflicts after I was done creating
+my branch. The benefit of making changes in a separate branch is that
+you can modify the project without changing the master version. The
+benefit of making changes directly in master is that changes are readily
+available in the "main" version of the project.

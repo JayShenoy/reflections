@@ -23,3 +23,11 @@ download a remote repository onto a local machine. I would use this if
 I wanted to directly modify the remote. Branching is used to create a
 separate path of commits that does not affect the master branch. I
 would use branches to, say, add an experimental feature to a project.
+
+What is the benefit of having a copy of the last known state of the
+remote stored locally?
+
+The benefit of this is that you can view the changes that have been
+made to the code and plan your own work accordingly. If you are not
+aware of recent changes, then it may be difficult to resolve conflicts
+that you introduce in your code.

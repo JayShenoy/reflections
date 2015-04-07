@@ -31,3 +31,12 @@ The benefit of this is that you can view the changes that have been
 made to the code and plan your own work accordingly. If you are not
 aware of recent changes, then it may be difficult to resolve conflicts
 that you introduce in your code.
+
+How would you collaborate without using Git or GitHub? What would be
+easier, and what would be harder?
+
+Without using Git or GitHub, I would most likely collaborate using
+an online platform like Google Docs. It would be much easier to make
+quick changes without pull requests, branches, and the like. However,
+it would be more difficult to find bugs in previous versions and to
+have an organized method of combining changes to projects.
